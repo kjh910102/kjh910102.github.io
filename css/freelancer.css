@@ -3,71 +3,98 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- body {
-	overflow-x: hidden;
+
+body {
+    overflow-x: hidden;
 }
+
 p {
-	font-size: 20px;
+    font-size: 20px;
 }
+
 p.small {
-	font-size: 16px;
+    font-size: 16px;
 }
-a, a:hover, a:focus, a:active, a.active {
-	outline: 0;
-	color: #ef4749;
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #18bc9c;
 }
-h1, h2, h3, h4, h5, h6 {
-	text-transform: uppercase;
-	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 700;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
-hr.star-light, hr.star-primary {
-	margin: 25px auto 30px;
-	padding: 0;
-	max-width: 250px;
-	border: 0;
-	border-top: solid 2px;
-	text-align: center;
-}
-hr.star-light:after, hr.star-primary:after {
-	content:"/";
-	display: inline-block;
-	position: relative;
-	top: -.8em;
-	padding: 0 .25em;
-	font-family: FontAwesome;
-	font-size: 2em;
-}
-hr.star-light {
-	border-color: #fff;
-}
-hr.star-light:after {
-	color: #fff;
-	background-color: #ef4749;
-}
+
+hr.star-light,
 hr.star-primary {
-	border-color: #252525;
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 2px;
+    text-align: center;
 }
+
+hr.star-light:after,
 hr.star-primary:after {
-	color: #252525;
-	background-color: #fff;
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
 }
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
 .img-centered {
-	margin: 0 auto;
+    margin: 0 auto;
 }
+
 header {
-	text-align: center;
-	color: #fff;
-	background: #ef4749;
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
 }
+
 header .container {
-	padding-top: 100px;
-	padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
+
 header img {
-	display: block;
-	margin: 0 auto 20px;
+    display: block;
+    margin: 0 auto 20px;
 }
+
 header .intro-text .name {
 	display: block;
 	text-transform: uppercase;
