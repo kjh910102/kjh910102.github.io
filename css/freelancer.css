@@ -14,7 +14,7 @@ p.small {
 }
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
-	color: #ef4749;
+	color: #ff8800;
 }
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
@@ -30,7 +30,7 @@ hr.star-light, hr.star-primary {
 	text-align: center;
 }
 hr.star-light:after, hr.star-primary:after {
-	content:"/";
+	-!!!content:";";
 	display: inline-block;
 	position: relative;
 	top: -.8em;
@@ -43,7 +43,7 @@ hr.star-light {
 }
 hr.star-light:after {
 	color: #fff;
-	background-color: #ef4749;
+	background-color: #ff8800;
 }
 hr.star-primary {
 	border-color: #252525;
@@ -58,7 +58,7 @@ hr.star-primary:after {
 header {
 	text-align: center;
 	color: #fff;
-	background: #ef4749;
+	background: #ff8800;
 }
 header .container {
 	padding-top: 100px;
@@ -137,7 +137,7 @@ section h2 {
 }
 section.success {
 	color: #fff;
-	background: #ef4749;
+	background: #ff8800;
 }
 section.success a, section.success a:hover, section.success a:focus, section.success a:active, section.success a.active {
 	outline: 0;
@@ -166,7 +166,7 @@ section.success a, section.success a:hover, section.success a:focus, section.suc
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: #ef4749;
+	background: #ff8800;
 	-webkit-transition: all ease .5s;
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;
@@ -208,7 +208,7 @@ section.success a, section.success a:hover, section.success a:focus, section.suc
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
 	border: solid 2px #fff;
-	color: #ef4749;
+	color: #ff8800;
 	background: #fff;
 }
 .floating-label-form-group {
@@ -254,7 +254,7 @@ section.success a, section.success a:hover, section.success a:focus, section.suc
 	opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-	color: #ef4749;
+	color: #ff8800;
 }
 form .row:first-child .floating-label-form-group {
 	border-top: 1px solid #eee;
@@ -362,3 +362,51 @@ footer .footer-below {
 	display: none;
 	opacity: 0;
 }
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+       url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+       url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }

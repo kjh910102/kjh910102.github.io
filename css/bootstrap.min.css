@@ -1049,11 +1049,11 @@ input, button, select, textarea {
 	line-height:inherit
 }
 a {
-	color:#ef4749;
+	color:#ff8800;
 	text-decoration:none
 }
 a:hover, a:focus {
-	color:#ef4749;
+	color:#ff8800;
 	text-decoration:underline
 }
 a:focus {
@@ -1250,7 +1250,7 @@ a.bg-primary:hover, a.bg-primary:focus {
 	background-color:#333333
 }
 .bg-success {
-	background-color:#ef4749
+	background-color:#ff8800
 }
 a.bg-success:hover, a.bg-success:focus {
 	background-color:#128f76
@@ -2159,7 +2159,7 @@ table td[class*="col-"], table th[class*="col-"] {
 	background-color:#dde4e6
 }
 .table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {
-	background-color:#ef4749
+	background-color:#ff8800
 }
 .table-hover>tbody>tr>td.success:hover, .table-hover>tbody>tr>th.success:hover, .table-hover>tbody>tr.success:hover>td, .table-hover>tbody>tr:hover>.success, .table-hover>tbody>tr.success:hover>th {
 	background-color:#15a589
@@ -2496,7 +2496,7 @@ textarea.input-lg, select[multiple].input-lg {
 .has-success .input-group-addon {
 	color:#ffffff;
 	border-color:#ffffff;
-	background-color:#ef4749
+	background-color:#ff8800
 }
 .has-success .form-control-feedback {
 	color:#ffffff
@@ -2754,8 +2754,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-success {
 	color:#ffffff;
-	background-color:#ef4749;
-	border-color:#ef4749
+	background-color:#ff8800;
+	border-color:#ff8800
 }
 .btn-success:focus, .btn-success.focus {
 	color:#ffffff;
@@ -2781,11 +2781,11 @@ a.btn.disabled, fieldset[disabled] a.btn {
 	background-image:none
 }
 .btn-success.disabled, .btn-success[disabled], fieldset[disabled] .btn-success, .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled.focus, .btn-success[disabled].focus, fieldset[disabled] .btn-success.focus, .btn-success.disabled:active, .btn-success[disabled]:active, fieldset[disabled] .btn-success:active, .btn-success.disabled.active, .btn-success[disabled].active, fieldset[disabled] .btn-success.active {
-	background-color:#ef4749;
-	border-color:#ef4749
+	background-color:#ff8800;
+	border-color:#ff8800
 }
 .btn-success .badge {
-	color:#ef4749;
+	color:#ff8800;
 	background-color:#ffffff
 }
 .btn-info {
@@ -2897,7 +2897,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 	background-color:#ffffff
 }
 .btn-link {
-	color:#ef4749;
+	color:#ff8800;
 	font-weight:normal;
 	border-radius:0
 }
@@ -2910,7 +2910,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 	border-color:transparent
 }
 .btn-link:hover, .btn-link:focus {
-	color:#ef4749;
+	color:#ff8800;
 	text-decoration:underline;
 	background-color:transparent
 }
@@ -3399,7 +3399,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
 	background-color:#ecf0f1;
-	border-color:#ef4749
+	border-color:#ff8800
 }
 .nav .nav-divider {
 	height:1px;
@@ -3643,11 +3643,13 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	border-width:1px 0 0
 }
 .navbar-brand {
-	float:left;
-	padding:19.5px 15px;
-	font-size:19px;
-	line-height:21px;
-	height:60px
+	float: left;
+	font-size: 19px;
+	line-height: 21px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
 	text-decoration:none
@@ -3862,7 +3864,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	color:#ffffff
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-	color:#ef4749;
+	color:#ff8800;
 	background-color:transparent
 }
 .navbar-default .navbar-text {
@@ -3872,7 +3874,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	color:#ffffff
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color: #ef4749;
+	color: #ff8800;
 	/* [disabled]background-color:transparent; */
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -3904,7 +3906,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 		color:#ffffff
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-		color:#ef4749;
+		color:#ff8800;
 		background-color:transparent
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
@@ -3920,19 +3922,19 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	color:#ffffff
 }
 .navbar-default .navbar-link:hover {
-	color:#ef4749
+	color:#ff8800
 }
 .navbar-default .btn-link {
 	color:#ffffff
 }
 .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-	color:#ef4749
+	color:#ff8800
 }
 .navbar-default .btn-link[disabled]:hover, fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:focus {
 	color:#cccccc
 }
 .navbar-inverse {
-	background-color:#ef4749;
+	background-color:#ff8800;
 	border-color:transparent
 }
 .navbar-inverse .navbar-brand {
@@ -4048,7 +4050,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	line-height:1.42857143;
 	text-decoration:none;
 	color:#ffffff;
-	background-color:#ef4749;
+	background-color:#ff8800;
 	border:1px solid transparent;
 	margin-left:-1px
 }
@@ -4118,7 +4120,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 .pager li>a, .pager li>span {
 	display:inline-block;
 	padding:5px 14px;
-	background-color:#ef4749;
+	background-color:#ff8800;
 	border:1px solid transparent;
 	border-radius:15px
 }
@@ -4134,7 +4136,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .pager .disabled>a, .pager .disabled>a:hover, .pager .disabled>a:focus, .pager .disabled>span {
 	color:#ffffff;
-	background-color:#ef4749;
+	background-color:#ff8800;
 	cursor:not-allowed
 }
 .label {
@@ -4174,7 +4176,7 @@ a.label:hover, a.label:focus {
 	background-color:#333333
 }
 .label-success {
-	background-color:#ef4749
+	background-color:#ff8800
 }
 .label-success[href]:hover, .label-success[href]:focus {
 	background-color:#128f76
@@ -4294,7 +4296,7 @@ a.badge:hover, a.badge:focus {
 	margin-right:auto
 }
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-	border-color:#ef4749
+	border-color:#ff8800
 }
 .thumbnail .caption {
 	padding:9px;
@@ -4329,8 +4331,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	color:inherit
 }
 .alert-success {
-	background-color:#ef4749;
-	border-color:#ef4749;
+	background-color:#ff8800;
+	border-color:#ff8800;
 	color:#ffffff
 }
 .alert-success hr {
@@ -4433,7 +4435,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	animation:progress-bar-stripes 2s linear infinite
 }
 .progress-bar-success {
-	background-color:#ef4749
+	background-color:#ff8800
 }
 .progress-striped .progress-bar-success {
 	background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -4568,7 +4570,7 @@ button.list-group-item {
 }
 .list-group-item-success {
 	color:#ffffff;
-	background-color:#ef4749
+	background-color:#ff8800
 }
 a.list-group-item-success, button.list-group-item-success {
 	color:#ffffff
@@ -4832,22 +4834,22 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
 	border-bottom-color:#252525
 }
 .panel-success {
-	border-color:#ef4749
+	border-color:#ff8800
 }
 .panel-success>.panel-heading {
 	color:#ffffff;
-	background-color:#ef4749;
-	border-color:#ef4749
+	background-color:#ff8800;
+	border-color:#ff8800
 }
 .panel-success>.panel-heading+.panel-collapse>.panel-body {
-	border-top-color:#ef4749
+	border-top-color:#ff8800
 }
 .panel-success>.panel-heading .badge {
-	color:#ef4749;
+	color:#ff8800;
 	background-color:#ffffff
 }
 .panel-success>.panel-footer+.panel-collapse>.panel-body {
-	border-bottom-color:#ef4749
+	border-bottom-color:#ff8800
 }
 .panel-info {
 	border-color:#3498db
@@ -5781,7 +5783,7 @@ button.close {
 }
 .navbar-inverse .badge {
 	background-color:#fff;
-	color:#ef4749
+	color:#ff8800
 }
 .navbar-brand {
 	line-height:1
@@ -5801,7 +5803,7 @@ button.close {
 	color:#252525
 }
 .text-success, .text-success:hover {
-	color:#ef4749
+	color:#ff8800
 }
 .text-danger, .text-danger:hover {
 	color:#e74c3c
@@ -5858,13 +5860,13 @@ table-bordered>thead>tr>th, .table-bordered>thead>tr>th, table-bordered>tbody>tr
 	border-color:#e74c3c
 }
 .has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label, .has-success .form-control-feedback {
-	color:#ef4749
+	color:#ff8800
 }
 .has-success .form-control, .has-success .form-control:focus {
-	border:2px solid #ef4749
+	border:2px solid #ff8800
 }
 .has-success .input-group-addon {
-	border-color:#ef4749
+	border-color:#ff8800
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
 	border-color:transparent
@@ -5905,7 +5907,7 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 	border-color:#ecf0f1
 }
 a.list-group-item-success.active {
-	background-color:#ef4749
+	background-color:#ff8800
 }
 a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
 	background-color:#15a589
