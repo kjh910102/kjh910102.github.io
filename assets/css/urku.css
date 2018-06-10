@@ -1160,7 +1160,7 @@ body {
 }
 
 .item-1 {
-  background-image: url("../img/ELECTRO MART_01_low.jpg");
+  background-image: url("../img/electro mart_01_low.jpg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-1 {
